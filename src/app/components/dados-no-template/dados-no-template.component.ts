@@ -10,6 +10,10 @@ import { Component } from '@angular/core';
 export class DadosNoTemplateComponent {
   // aqui que vai ficar logica das coisas
   name: string ="Alessandra";
-  idade: number = 21
-
+  idade: number = 21;
+  carro = {
+  name:"Audi",
+  modelo: "Tt",
+  ano: "2020"
+  }
 }
